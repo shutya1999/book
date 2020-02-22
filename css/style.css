@@ -1,0 +1,138 @@
+body {
+    background-image: url("../img/pepe.png");
+}
+
+h1 {
+    text-align: center
+}
+
+.add-book {
+    padding: 10px 0;
+    width: 100px;
+}
+
+.add-book form {
+    width: 200px;
+}
+
+.view-book {
+    padding: 10px 0;
+    width: 100px;
+}
+.main {
+    padding: 10px 0;
+}
+
+.title {
+    padding: 5px 0;
+    margin: 10px 0;
+    display: block
+}
+
+.FN {
+    padding: 5px 0;
+    margin: 10px 0;
+    display: block
+}
+
+.SN {
+    padding: 5px 0;
+    margin: 10px 0;
+    display: block
+}
+
+.desc {
+    padding: 5px 0;
+    margin: 10px 0;
+    display: block
+}
+
+.view-book-btn{
+    padding: 5px 5px;
+    background-color: #ff4f5b;
+    border: 2px solid red;
+    border-radius: 5px;
+    color: white;
+}
+.view-book-btn:hover{
+    background-color: red;
+}
+
+.add-book-btn{
+    padding: 5px 5px;
+    background-color: #78b2ff;
+    border: 2px solid #2e88ff;
+    border-radius: 5px;
+    color: white;
+}
+
+.add-book-btn:hover{
+    background-color: #2e88ff;
+}
+
+tr:nth-child(2n)
+{
+    background: palegoldenrod;
+}
+
+tr:nth-child(2n+1)
+{
+    background: #ffa74a;
+}
+
+
+.form-login label {
+    float: left;
+    padding-right: 10px;
+    font-size: 20px;
+    font-family: Tahoma;
+    font-weight: 600;
+}
+
+.form-login {
+    float: left;
+}
+
+.login  {
+    clear: both;
+    text-align: right;
+}
+
+.e-mail {
+    padding-top: 5px;
+    clear: both;
+    text-align: right;
+}
+
+.pass  {
+    padding-top: 5px;
+    clear: both;
+    text-align: right;
+}
+
+.registration {
+    display: block;
+}
+
+.vhod {
+    padding-top: 10px;
+}
+
+.registration {
+    padding-top: 10px;
+}
+
+.test2 {
+    display: block;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.exit {
+
+}
+
+.container table td {
+    text-align: center;
+}
