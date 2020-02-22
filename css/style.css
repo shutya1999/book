@@ -7,20 +7,17 @@ h1 {
 }
 
 .add-book {
-    padding: 10px 0;
-    width: 100px;
+    padding: 0 20px;
 }
-
-.add-book form {
-    width: 200px;
-}
-
 .view-book {
-    padding: 10px 0;
-    width: 100px;
+    padding: 0 20px;
 }
-.main {
-    padding: 10px 0;
+/*.main {*/
+    /*padding: 10px 0;*/
+/*}*/
+.exit{
+    padding: 0 20px;
+
 }
 
 .title {
@@ -53,9 +50,6 @@ h1 {
     border: 2px solid red;
     border-radius: 5px;
     color: white;
-}
-.view-book-btn:hover{
-    background-color: red;
 }
 
 .add-book-btn{
@@ -125,14 +119,19 @@ tr:nth-child(2n+1)
 .test2 {
     display: block;
 }
-.container {
+.template {
     display: flex;
-    flex-direction: column;
+    /*flex-direction: row;*/
+    justify-content: center;
+    padding: 20px 20px;
 }
-.exit {
+
+.test {
+    display: flex;
+    justify-content: center;
 
 }
 
-.container table td {
-    text-align: center;
-}
+/*.container table td {*/
+    /*text-align: center;*/
+/*}*/

@@ -24,28 +24,29 @@ if ($_POST['unlogin']){
 
 </head>
 <body>
+<?require_once ('../template/main.php'); ?>
+<h1>Книги котрые я прочитал</h1>
 
-    <h1>Книги котрые я прочитал</h1>
-<div class="container">
-    <form action="add-book.php" method="post">
-        <div class="add-book">
-            <button class="btn btn-success">Добавить книгу</button>
-        </div>
-    </form>
-
-    <form action="view-book.php" method="post">
-        <div class="view-book">
-            <button class="btn btn-info">Посмотреть книги которые я прочитал</button>
-        </div>
-    </form>
-
-    <div class="exit">
-        <form action="" method="post">
-            <input class="btn btn-danger" type="submit" name="unlogin" value="Выйти">
-        </form
-    </div>
-
-</div>
+<!--<div class="container">-->
+<!--    <h1>Книги котрые я прочитал</h1>-->
+<!--    <form action="add-book.php" method="post">-->
+<!--        <div class="add-book">-->
+<!--            <button class="btn btn-success">Добавить книгу</button>-->
+<!--        </div>-->
+<!--    </form>-->
+<!--    <form action="view-book.php" method="post">-->
+<!--        <div class="view-book">-->
+<!--            <button class="btn btn-info">Посмотреть книги которые я прочитал</button>-->
+<!--        </div>-->
+<!--    </form>-->
+<!---->
+<!--    <div class="exit">-->
+<!--        <form action="" method="post">-->
+<!--            <input class="btn btn-danger" type="submit" name="unlogin" value="Выйти">-->
+<!--        </form-->
+<!--    </div>-->
+<!---->
+<!--</div>-->
 
 
 </body>

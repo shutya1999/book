@@ -1,5 +1,4 @@
 <?php
-
 require_once("../connect.php");
 
 class Add extends Connect
@@ -11,7 +10,6 @@ class Add extends Connect
 
     public function getBook($title, $firstName, $secondName, $description)
     {
-
         if ($title == "") {
 //            echo "Pusto";
         } else {
@@ -26,13 +24,10 @@ class Add extends Connect
             }
         }
         return $sql;
-
     }
 }
-
 $test = new Add();
 $test->getBook($_POST['title'], $_POST['firstName'], $_POST['secondName'], $_POST['description']);
-
 ?>
 <!doctype html>
 <html lang="en">
@@ -44,11 +39,11 @@ $test->getBook($_POST['title'], $_POST['firstName'], $_POST['secondName'], $_POS
     <title>Document</title>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
-
-
 </head>
 <body>
 <h1>Добавить Книгу</h1>
+<?require_once ('../template/main.php'); ?>
+
 <div class="container">
     <form action="" method="post">
         <div class="add">

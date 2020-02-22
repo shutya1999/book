@@ -1,6 +1,5 @@
 <?php
 require_once("../connect.php");
-
 class View extends Connect
 {
     public function getView()
@@ -10,15 +9,8 @@ class View extends Connect
         return $result;
     }
 }
-
 $view = new View();
-$viewResult = $view ->getView();
-
-//echo "<pre>";
-//var_dump($view->getView());
-//echo "</pre>";
-
-
+$viewResult = $view->getView();
 ?>
 <!doctype html>
 <html lang="en">
@@ -33,10 +25,13 @@ $viewResult = $view ->getView();
 
 </head>
 <body>
-<div class="container">
-    <h1>Смотреть Книги</h1>
+<h1>Смотреть Книги</h1>
+
+<?require_once ('../template/main.php'); ?>
+
+<div class="test">
     <table cellpadding="5px" cellspacing="0" border="2px">
-        <tr style="font-weight: 600; color: black; background-color: white" >
+        <tr style="font-weight: 600; color: black; background-color: white">
             <td>Название Книги</td>
             <td>Имя автора</td>
             <td>Фамилия автора</td>
@@ -51,20 +46,8 @@ $viewResult = $view ->getView();
             </tr>
         <? } ?>
     </table>
-
-    <form action="book.php">
-        <div class="main">
-            <button class="btn btn-success" type="submit" name="back">На главную</button>
-        </div>
-    </form>
-
-    <form action="add-book.php" method="post">
-        <div class="add-book">
-            <button class="btn btn-primary">Добавить книгу</button>
-        </div>
-    </form>
 </div>
-
-
 </body>
-</html>
+
+
+

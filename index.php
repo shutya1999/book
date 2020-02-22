@@ -52,7 +52,6 @@ $loginClass -> getLogin($_POST['login'],$_POST['pass'])
 
 <div class="container">
     <div class="test1">
-<!--        <img src="img/pepe.jpg" alt="">-->
         <form action="" method="post">
             <div class="form-login">
 
@@ -65,12 +64,8 @@ $loginClass -> getLogin($_POST['login'],$_POST['pass'])
                     <input type="password" name="pass" placeholder="Пароль" required>
                 </div>
                 <div class="vhod">
-<!--                    <button class="btn">Вход</button>-->
-<!--                    <ion-icon name="exit-outline"></ion-icon>-->
                     <button  class="btn btn-success">Вход</button>
-
                 </div>
-
             </div>
         </form>
     </div>
